@@ -1,0 +1,1 @@
+export decorationMixin from "./decorationMixin";

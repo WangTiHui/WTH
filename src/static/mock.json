@@ -1,0 +1,250 @@
+[
+  {
+    "type": "tabbar",
+    "config": { "active_icon": "", "unactive_icon": "", "business_id": 1 },
+    "pages": {
+      "head": [
+        {
+          "id": "2",
+          "title": "样式一",
+          "image": "https://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/component/top_1.png",
+          "num_limit": 1,
+          "parent_id": "1",
+          "attribute_num_basic": 1,
+          "parent_title_english": "HeaderBar",
+          "parent_num_limit": 1,
+          "config_list": [
+            {
+              "type": "image",
+              "config": { "image": "", "title": "", "function": null }
+            },
+            {
+              "type": "image",
+              "config": { "image": "", "title": "", "function": null }
+            }
+          ]
+        },
+        {
+          "id": "7",
+          "title": "样式一",
+          "image": "https://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/component/top2_1.png",
+          "num_limit": 1,
+          "parent_id": "6",
+          "attribute_num_basic": 1,
+          "parent_title_english": "ClassificationList",
+          "parent_num_limit": 1,
+          "config_list": [{ "type": "checkbox", "config": { "data": [] } }]
+        }
+      ],
+      "body": [
+        {
+          "id": "10",
+          "title": "banner图",
+          "image": "https://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/component/banner_1.png",
+          "num_limit": 1,
+          "parent_id": "9",
+          "attribute_num_basic": 0,
+          "parent_title_english": "Carousel",
+          "parent_num_limit": 1,
+          "min": 1,
+          "max": 8,
+          "config_list": [
+            {
+              "type": "image",
+              "config": {
+                "image": "https://cube.elemecdn.com/6/94/4d3ea53c084bad6931a56d5158a48jpeg.jpeg",
+                "title": "",
+                "function": null
+              }
+            }
+          ]
+        },
+        {
+          "id": "14",
+          "title": "两行8个",
+          "image": "https://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/component/g_3.png",
+          "num_limit": 2,
+          "parent_id": "11",
+          "attribute_num_basic": 0,
+          "parent_title_english": "ModuleList",
+          "parent_num_limit": 2,
+          "min": 8,
+          "max": 30,
+          "config_list": [
+            {
+              "type": "image",
+              "config": { "image": "", "title": "", "function": null }
+            },
+            {
+              "type": "image",
+              "config": { "image": "", "title": "", "function": null }
+            },
+            {
+              "type": "image",
+              "config": { "image": "", "title": "", "function": null }
+            },
+            {
+              "type": "image",
+              "config": { "image": "", "title": "", "function": null }
+            },
+            {
+              "type": "image",
+              "config": { "image": "", "title": "", "function": null }
+            },
+            {
+              "type": "image",
+              "config": { "image": "", "title": "", "function": null }
+            },
+            {
+              "type": "image",
+              "config": { "image": "", "title": "", "function": null }
+            },
+            {
+              "type": "image",
+              "config": { "image": "", "title": "", "function": null }
+            }
+          ]
+        },
+        {
+          "id": "17",
+          "title": "滑动面板",
+          "image": "https://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/component/banner2_1.png",
+          "num_limit": 2,
+          "parent_id": "16",
+          "attribute_num_basic": 0,
+          "parent_title_english": "AdvBanner",
+          "parent_num_limit": 2,
+          "min": 1,
+          "max": 8,
+          "config_list": [
+            {
+              "type": "image",
+              "config": {
+                "image": "https://cube.elemecdn.com/6/94/4d3ea53c084bad6931a56d5158a48jpeg.jpeg",
+                "title": "",
+                "function": null
+              }
+            }
+          ]
+        },
+        {
+          "id": "19",
+          "title": "一行一个",
+          "image": "https://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/component/p_1.png",
+          "num_limit": 10,
+          "parent_id": "18",
+          "attribute_num_basic": 1,
+          "parent_title_english": "ImageModule",
+          "parent_num_limit": 10,
+          "config_list": [
+            {
+              "type": "image",
+              "config": { "image": "", "title": "", "function": null }
+            }
+          ]
+        },
+        {
+          "id": "21",
+          "title": "左1右1",
+          "image": "https://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/component/p_3.png",
+          "num_limit": 10,
+          "parent_id": "18",
+          "attribute_num_basic": 1,
+          "parent_title_english": "ImageModule",
+          "parent_num_limit": 10,
+          "config_list": [
+            {
+              "type": "image",
+              "config": { "image": "", "title": "", "function": null }
+            },
+            {
+              "type": "image",
+              "config": { "image": "", "title": "", "function": null }
+            },
+            {
+              "type": "image",
+              "config": { "image": "", "title": "", "function": null }
+            }
+          ]
+        },
+        {
+          "id": "22",
+          "title": "左2右1",
+          "image": "https://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/component/p_4.png",
+          "num_limit": 10,
+          "parent_id": "18",
+          "attribute_num_basic": 1,
+          "parent_title_english": "ImageModule",
+          "parent_num_limit": 10,
+          "config_list": [
+            {
+              "type": "image",
+              "config": { "image": "", "title": "", "function": null }
+            },
+            {
+              "type": "image",
+              "config": { "image": "", "title": "", "function": null }
+            },
+            {
+              "type": "image",
+              "config": { "image": "", "title": "", "function": null }
+            }
+          ]
+        },
+        {
+          "id": "25",
+          "title": "横向商品滑动",
+          "image": "https://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/component/s_3.png",
+          "num_limit": 5,
+          "parent_id": "24",
+          "attribute_num_basic": 1,
+          "parent_title_english": "InlineGoodsFields",
+          "parent_num_limit": 5,
+          "config_list": [{ "type": "select", "config": { "id": 0 } }]
+        },
+        {
+          "id": "27",
+          "title": "主商品板块",
+          "image": "https://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/component/s_1.png",
+          "num_limit": 1,
+          "parent_id": "26",
+          "attribute_num_basic": 1,
+          "parent_title_english": "GoodsFields",
+          "parent_num_limit": 1,
+          "config_list": [{ "type": "select", "config": { "id": 0 } }]
+        },
+        {
+          "id": "27",
+          "title": "主商品板块",
+          "image": "https://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/component/s_1.png",
+          "num_limit": 1,
+          "parent_id": "26",
+          "attribute_num_basic": 1,
+          "parent_title_english": "GoodsFields",
+          "parent_num_limit": 1,
+          "config_list": [{ "type": "select", "config": { "id": 0 } }]
+        }
+      ]
+    }
+  },
+  {
+    "type": "tabbar",
+    "config": { "active_icon": "", "unactive_icon": "", "business_id": 1 },
+    "pages": { "head": [], "body": [] }
+  },
+  {
+    "type": "tabbar",
+    "config": { "active_icon": "", "unactive_icon": "", "business_id": 1 },
+    "pages": { "head": [], "body": [] }
+  },
+  {
+    "type": "tabbar",
+    "config": { "active_icon": "", "unactive_icon": "", "business_id": 1 },
+    "pages": { "head": [], "body": [] }
+  },
+  {
+    "type": "tabbar",
+    "config": { "active_icon": "", "unactive_icon": "", "business_id": 0 },
+    "pages": "me"
+  }
+]
