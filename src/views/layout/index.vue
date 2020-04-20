@@ -67,6 +67,7 @@ computed: {
 .el-main {
   background-color: @bodybg;
   min-width: 800px;
+  background: url('~@/assets/images/bg-img.png');
 }
 .title {
   text-align: center;
