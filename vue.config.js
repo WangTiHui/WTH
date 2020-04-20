@@ -7,7 +7,7 @@ module.exports = {
   },
   devServer: {
     open: true, // serve 后主动打开浏览器
-    port: 8099
+    port: 8111
   },
   productionSourceMap: false,
   pluginOptions: {
