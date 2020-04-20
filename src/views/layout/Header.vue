@@ -2,7 +2,7 @@
   <div class="header">
     <div class="left">
       <img
-        src="@/assets/images/more-line.png"
+        src="@/assets/images/culture-icon8.png"
         :class="{'rotateicon':true, 'activeicon': AsideMenuCollapse}"
         @click="toggleAsideMenuCollapse"
       />

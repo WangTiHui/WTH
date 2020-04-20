@@ -1,9 +1,9 @@
 <template>
   <el-container>
-    <el-aside :width="AsideMenuCollapse?'64px':'200px'">
+    <!-- <el-aside :width="AsideMenuCollapse?'64px':'200px'">
       <h3 class="title">{{AsideMenuCollapse?'王':'老王'}}</h3>
       <DynamicMenu />
-    </el-aside>
+    </el-aside> -->
     <el-container>
       <el-header>
         <Header />
@@ -11,14 +11,14 @@
       <el-main class="better-scrollbar">
         <router-view></router-view>
       </el-main>
-      <!-- <div class="keep-record">
-        <el-link :underline="false" target="_blank" href="http://beian.miit.gov.cn/">浙ICP备17022807号-1</el-link>
-        <el-divider direction="vertical" />
+      <div class="keep-record">
+        <!-- <el-link :underline="false" target="_blank" href="http://beian.miit.gov.cn/">浙ICP备17022807号-1</el-link> -->
+        <!-- <el-divider direction="vertical" /> -->
         <el-link :underline="false" target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33011002013438">
           <el-image fit="fill" src="http://mobile.mifbb.com/images/ga.png" />
         </el-link>
-        <el-link :underline="false" target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33011002013438">浙公网安备 33011002013438号</el-link>
-      </div> -->
+        <el-link :underline="false" target="_blank" href="http://beian.miit.gov.cn/">浙ICP备17022807号-1</el-link>
+      </div>
     </el-container>
   </el-container>
 </template>

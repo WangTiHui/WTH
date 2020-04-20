@@ -9,44 +9,44 @@
         <ul class="clearfix">
           <li class="piston1" :class="{'animation-paused':isStop}">
             <div class="menu-item" :class="{'menu-on':isMouseenter1}"> <span @mouseenter="mouseenterFun(1)" @mouseout="mouseoutFun(1)">关于<br>
-              我</span> <a href="about.html" class="menu-link1 menu-link">个人<br>
-              简介</a> <a href="about-culture.html" class="menu-link2 menu-link">个人<br>
-              文化</a> <a href="about-advantage.html" class="menu-link3 menu-link">个人<br>
-              优势</a> <a href="about-history.html" class="menu-link4 menu-link">发展<br>
-              历程</a> <a href="about-organization.html" class="menu-link5 menu-link">兴趣<br>
-              爱好</a> 
+              我</span> <a class="menu-link1 menu-link"><router-link to="about/about">个人<br>
+              简介</router-link></a> <a class="menu-link2 menu-link"><router-link to="about/culture">个人<br>
+              文化</router-link></a> <a class="menu-link3 menu-link"><router-link to="about/odds">个人<br>
+              优势</router-link></a> <a class="menu-link4 menu-link"><router-link to="about/course">发展<br>
+              历程</router-link></a> <a class="menu-link5 menu-link"><router-link to="about/hobby">兴趣<br>
+              爱好</router-link></a> 
             </div>
           </li>
           <li class="piston2" :class="{'animation-paused':isStop}">
             <div class="menu-item" :class="{'menu-on':isMouseenter2}"> <span @mouseenter="mouseenterFun(2)" @mouseout="mouseoutFun(2)">生活<br>
-              菜单</span> <a href="aptitude.html" class="menu-link1 menu-link">游戏<br>
-              目录</a> <a href="aptitude.html" class="menu-link2 menu-link">运动<br>
-              项目</a> <a href="aptitude.html" class="menu-link3 menu-link">电影<br>
-              栏目</a> <a href="aptitude.html" class="menu-link4 menu-link">购物<br>
-              需求</a> <a href="aptitude.html" class="menu-link5 menu-link">休闲<br>
-              项目</a> <a href="aptitude.html" class="menu-link6 menu-link">美食<br>
-              节目</a> 
+              菜单</span> <a class="menu-link1 menu-link"><router-link to="life/game">游戏<br>
+              目录</router-link></a> <a class="menu-link2 menu-link"><router-link to="life/sport">运动<br>
+              项目</router-link></a> <a class="menu-link3 menu-link"><router-link to="life/cinema">电影<br>
+              栏目</router-link></a> <a class="menu-link4 menu-link"><router-link to="life/shop">购物<br>
+              需求</router-link></a> <a class="menu-link5 menu-link"><router-link to="life/leisure">休闲<br>
+              项目</router-link></a> <a class="menu-link6 menu-link"><router-link to="life/food">美食<br>
+              节目</router-link></a> 
             </div>
           </li>
           <li class="piston3" :class="{'animation-paused':isStop}">
             <div class="menu-item" :class="{'menu-on':isMouseenter3}"> <span @mouseenter="mouseenterFun(3)" @mouseout="mouseoutFun(3)">技能<br>
-              等级</span> <a href="commerce-register.html" class="menu-link1 menu-link">css<br>
-              html</a> <a href="commerce-change.html" class="menu-link2 menu-link">vue<br>
-              element</a> <a href="commerce-cancel.html" class="menu-link3 menu-link">react<br>
-              taro</a> <a href="commerce-licence.html" class="menu-link4 menu-link">小<br>
-              程序</a> 
+              等级</span> <a class="menu-link1 menu-link"><router-link to="skill/html">css<br>
+              html</router-link></a> <a class="menu-link2 menu-link"><router-link to="skill/vue">vue<br>
+              element</router-link></a> <a class="menu-link3 menu-link"><router-link to="skill/taro">react<br>
+              taro</router-link></a> <a class="menu-link4 menu-link"><router-link to="skill/applets">小<br>
+              程序</router-link></a> 
             </div>
           </li>
           <li class="piston4" :class="{'animation-paused':isStop}">
-            <div class="menu-item" :class="{'menu-on':isMouseenter4}"> <span @mouseenter="mouseenterFun(4)" @mouseout="mouseoutFun(4)"><a href="#" class="singal">兴趣<br>
-              爱好</a></span> 
+            <div class="menu-item" :class="{'menu-on':isMouseenter4}"> <span @mouseenter="mouseenterFun(4)" @mouseout="mouseoutFun(4)"><a class="singal"><router-link to="hobby">兴趣<br>
+              爱好</router-link></a></span> 
             </div>
           </li>
           <li class="piston5" :class="{'animation-paused':isStop}">
             <div class="menu-item" :class="{'menu-on':isMouseenter5}"> <span @mouseenter="mouseenterFun(5)" @mouseout="mouseoutFun(5)">资历<br>
-              成长</span> <a href="transfer.html" class="menu-link1 menu-link">业务<br>
-              方向</a> <a href="transfer.html" class="menu-link2 menu-link">技能<br>
-              等级</a> 
+              成长</span> <a class="menu-link1 menu-link"><router-link to="seniority/business">业务<br>
+              方向</router-link></a> <a class="menu-link2 menu-link"><router-link to="seniority/skill">技能<br>
+              等级</router-link></a> 
             </div>
           </li>
         </ul>
@@ -84,7 +84,7 @@
           </li>
           <li>
             <h3 class="nav-item"><a href="javascript:;">生活菜单</a></h3>
-            <!-- <div class="dropdown"> <a href="aptitude.html">总承包资质</a> <a href="aptitude.html">专业承包资质</a> <a href="aptitude.html">设计资质</a> <a href="aptitude.html">勘察资质</a> <a href="aptitude.html">房地产开发资质</a> <a href="aptitude.html">人才猎聘</a> </div> -->
+            <!-- <div class="dropdown"> <a>总承包资质</a> <a>专业承包资质</a> <a>设计资质</a> <a>勘察资质</a> <a>房地产开发资质</a> <a>人才猎聘</a> </div> -->
           </li>
           <li>
             <h3 class="nav-item"><a href="javascript:;">没事溜溜</a></h3>
