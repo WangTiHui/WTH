@@ -8,6 +8,16 @@
       />
       <CrumbList />
     </div>
+    <div class="right">
+      <el-tag type="warning" @click="showUploadDialog">上传</el-tag>
+    </div>
+    <el-dialog title="上传图片" width="60%" @close="closeImgUp" :visible.sync="isdialogShow" :append-to-body="true">
+      <imgUpload ref="imgUpdateMainPic" @urlList="urlListMainPic" :productImgs="imgListMainPic" :imgLimit="1"></imgUpload>
+      <span class="dialog-footer" slot="footer">
+        <el-button @click="isdialogShow=false">取 消</el-button>
+        <el-button type="primary" @click="confirm">确 定</el-button>
+      </span>
+    </el-dialog>
   </div>
 </template>
 
@@ -15,6 +25,7 @@
 import init from "@/assets/rongyun/init";
 import { mapState , mapActions} from "vuex";
 import CrumbList from "./CrumbList";
+import imgUpload from '@/components/ImageUpload/imgUpload'
 import formatTime from "@/global/filters";
 const clickoutside = {
  // 初始化指令
@@ -59,7 +70,9 @@ export default {
 		  page:1,
 		  page_size:5,
 		  total_count:0
-	  },
+    },
+    isdialogShow:false,
+    imgListMainPic:[],
 	  announcement:[],
 	  merchantInformation:[],
 	  not_read_count:0,//总未读条数
@@ -78,7 +91,22 @@ export default {
     toggleAsideMenuCollapse() {
       this.$store.commit("toggleAsideMenuCollapse");
     },
-	...mapActions(['getMessaged']),
+  ...mapActions(['getMessaged']),
+  confirm(){
+
+  },
+  showUploadDialog(){
+    this.isdialogShow = true
+  },
+  closeImgUp(){
+    this.isdialogShow = false
+  },
+  urlListMainPic(val){
+    console.log(val,'val')
+  }
+  },
+  components:{
+    imgUpload
   }
 };
 </script>

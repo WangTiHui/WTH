@@ -1,7 +1,6 @@
 <template>
   <div>
     关于{{title}}
-    <!-- <el-button @click="add">add</el-button> -->
   </div>
 </template>
 

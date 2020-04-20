@@ -9,12 +9,11 @@
         <ul class="clearfix">
           <li class="piston1" :class="{'animation-paused':isStop}">
             <div class="menu-item" :class="{'menu-on':isMouseenter1}"> <span @mouseenter="mouseenterFun(1)" @mouseout="mouseoutFun(1)">关于<br>
-              我</span> <a class="menu-link1 menu-link"><router-link to="about/about">个人<br>
-              简介</router-link></a> <a class="menu-link2 menu-link"><router-link to="about/culture">个人<br>
-              文化</router-link></a> <a class="menu-link3 menu-link"><router-link to="about/odds">个人<br>
+              我</span> <a class="menu-link1 menu-link"><router-link to="about/about">我的<br>
+              简介</router-link></a> <a class="menu-link2 menu-link"><router-link to="about/culture">文化<br>
+              乐部</router-link></a> <a class="menu-link3 menu-link"><router-link to="about/odds">个人<br>
               优势</router-link></a> <a class="menu-link4 menu-link"><router-link to="about/course">发展<br>
-              历程</router-link></a> <a class="menu-link5 menu-link"><router-link to="about/hobby">兴趣<br>
-              爱好</router-link></a> 
+              历程</router-link></a>
             </div>
           </li>
           <li class="piston2" :class="{'animation-paused':isStop}">
@@ -38,8 +37,13 @@
             </div>
           </li>
           <li class="piston4" :class="{'animation-paused':isStop}">
-            <div class="menu-item" :class="{'menu-on':isMouseenter4}"> <span @mouseenter="mouseenterFun(4)" @mouseout="mouseoutFun(4)"><a class="singal"><router-link to="hobby">兴趣<br>
-              爱好</router-link></a></span> 
+            <div class="menu-item" :class="{'menu-on':isMouseenter4}"> <span @mouseenter="mouseenterFun(4)" @mouseout="mouseoutFun(4)">兴趣<br>
+              爱好</span> <a class="menu-link1 menu-link"><router-link to="hobby/picture">图片<br>
+              锦集</router-link></a><a class="menu-link2 menu-link"><router-link to="hobby/video">视频<br>
+              锦集</router-link></a><a class="menu-link3 menu-link"><router-link to="hobby/article">文章<br>
+              优选</router-link></a><a class="menu-link4 menu-link"><router-link to="hobby/works">作品<br>
+              精选</router-link></a><a class="menu-link5 menu-link"><router-link to="hobby/novel">小说<br>
+              精选</router-link></a>
             </div>
           </li>
           <li class="piston5" :class="{'animation-paused':isStop}">

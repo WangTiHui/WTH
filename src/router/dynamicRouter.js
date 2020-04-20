@@ -16,6 +16,11 @@ const shop = () => import("@/views/wang/life/shop");
 const leisure = () => import("@/views/wang/life/leisure");
 // 爱好
 const hobby = () => import("@/views/wang/hobby/index");
+const video = () => import("@/views/wang/hobby/video");
+const picture = () => import("@/views/wang/hobby/picture");
+const works = () => import("@/views/wang/hobby/works");
+const article = () => import("@/views/wang/hobby/article");
+const novel = () => import("@/views/wang/hobby/novel");
 // 资历
 const seniority = () => import("@/views/wang/seniority/index");
 const business = () => import("@/views/wang/seniority/business");
@@ -175,11 +180,58 @@ const dynamicRouter = [
   {
     path: "/hobby",
     name: "hobby",
-    component: hobby,
+    component: RouterContainer,
     meta: {
       name: "hobby",
       hidden:false,
-    }
+    },
+    children:[
+      {
+        path: "video",
+        name: "video",
+        component: video,
+        meta: {
+          name: "video",
+          hidden:false,
+        }
+      },
+      {
+        path: "picture",
+        name: "picture",
+        component: picture,
+        meta: {
+          name: "picture",
+          hidden:false,
+        }
+      },
+      {
+        path: "article",
+        name: "article",
+        component: article,
+        meta: {
+          name: "article",
+          hidden:false,
+        }
+      },
+      {
+        path: "works",
+        name: "works",
+        component: works,
+        meta: {
+          name: "works",
+          hidden:false,
+        }
+      },
+      {
+        path: "novel",
+        name: "novel",
+        component: novel,
+        meta: {
+          name: "novel",
+          hidden:false,
+        }
+      },
+    ]
   },
   {
     path: "/seniority",
