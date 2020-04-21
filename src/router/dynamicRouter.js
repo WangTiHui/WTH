@@ -61,7 +61,7 @@ const dynamicRouter = [
     name: "about",
     component: RouterContainer,
     meta: {
-      name: "about",
+      name: "关于",
       hidden:false,
     },
     children: [
@@ -70,7 +70,7 @@ const dynamicRouter = [
         name: "about",
         component: about,
         meta: {
-          name: "about",
+          name: "关于",
           hidden:false,
         }
       },
@@ -79,7 +79,7 @@ const dynamicRouter = [
         name: "synopsis",
         component: synopsis,
         meta: {
-          name: "synopsis",
+          name: "个人简介",
           hidden:false,
         }
       },
@@ -88,7 +88,7 @@ const dynamicRouter = [
         name: "culture",
         component: culture,
         meta: {
-          name: "culture",
+          name: "文化",
           hidden:false,
         }
       },
@@ -97,7 +97,7 @@ const dynamicRouter = [
         name: "odds",
         component: odds,
         meta: {
-          name: "odds",
+          name: "优势",
           hidden:false,
         }
       },
@@ -106,7 +106,7 @@ const dynamicRouter = [
         name: "course",
         component: course,
         meta: {
-          name: "course",
+          name: "成长历程",
           hidden:false,
         }
       },
@@ -117,7 +117,7 @@ const dynamicRouter = [
     name: "life",
     component: life,
     meta: {
-      name: "life",
+      name: "生活菜单",
       hidden:false,
     },
     children: [
@@ -126,7 +126,7 @@ const dynamicRouter = [
         name: "game",
         component: game,
         meta: {
-          name: "game",
+          name: "游戏",
           hidden:false,
         }
       },
@@ -135,7 +135,7 @@ const dynamicRouter = [
         name: "sport",
         component: sport,
         meta: {
-          name: "sport",
+          name: "运动",
           hidden:false,
         }
       },
@@ -144,7 +144,7 @@ const dynamicRouter = [
         name: "food",
         component: food,
         meta: {
-          name: "food",
+          name: "美食",
           hidden:false,
         }
       },
@@ -153,7 +153,7 @@ const dynamicRouter = [
         name: "cinema",
         component: cinema,
         meta: {
-          name: "cinema",
+          name: "电影",
           hidden:false,
         }
       },
@@ -162,7 +162,7 @@ const dynamicRouter = [
         name: "shop",
         component: shop,
         meta: {
-          name: "shop",
+          name: "购物",
           hidden:false,
         }
       },
@@ -171,7 +171,7 @@ const dynamicRouter = [
         name: "leisure",
         component: leisure,
         meta: {
-          name: "leisure",
+          name: "休闲",
           hidden:false,
         }
       },
@@ -182,7 +182,7 @@ const dynamicRouter = [
     name: "hobby",
     component: RouterContainer,
     meta: {
-      name: "hobby",
+      name: "兴趣爱好",
       hidden:false,
     },
     children:[
@@ -191,7 +191,7 @@ const dynamicRouter = [
         name: "video",
         component: video,
         meta: {
-          name: "video",
+          name: "视频",
           hidden:false,
         }
       },
@@ -200,7 +200,7 @@ const dynamicRouter = [
         name: "picture",
         component: picture,
         meta: {
-          name: "picture",
+          name: "图片",
           hidden:false,
         }
       },
@@ -209,7 +209,7 @@ const dynamicRouter = [
         name: "article",
         component: article,
         meta: {
-          name: "article",
+          name: "文章",
           hidden:false,
         }
       },
@@ -218,7 +218,7 @@ const dynamicRouter = [
         name: "works",
         component: works,
         meta: {
-          name: "works",
+          name: "作品",
           hidden:false,
         }
       },
@@ -227,7 +227,7 @@ const dynamicRouter = [
         name: "novel",
         component: novel,
         meta: {
-          name: "novel",
+          name: "小说",
           hidden:false,
         }
       },
@@ -238,7 +238,7 @@ const dynamicRouter = [
     name: "seniority",
     component: seniority,
     meta: {
-      name: "seniority",
+      name: "资历成长",
       hidden:false,
     },
     children:[
@@ -247,7 +247,7 @@ const dynamicRouter = [
         name: "business",
         component: business,
         meta: {
-          name: "business",
+          name: "业务方向",
           hidden:false,
         }
       },
@@ -256,7 +256,7 @@ const dynamicRouter = [
         name: "sskill",
         component: sskill,
         meta: {
-          name: "sskill",
+          name: "技能等级",
           hidden:false,
         }
       },
@@ -267,7 +267,7 @@ const dynamicRouter = [
     name: "skill",
     component: skill,
     meta: {
-      name: "skill",
+      name: "技能",
       hidden:false,
     },
     children: [

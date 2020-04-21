@@ -9,15 +9,13 @@
       <CrumbList />
     </div>
     <div class="right">
-      <el-tag type="warning" @click="showUploadDialog">上传</el-tag>
+      <el-input v-show="inputShow" @keyup.enter.native="KeyUpEnter" type="text" v-model="inputValue"></el-input>
+      <el-select v-model="selectValue" v-show="selectShow">
+        <el-option v-for="item in selectList" :key="item.value" :value="item.value" :label="item.label"></el-option>
+      </el-select>
+      <el-button v-show="selectShow" type="primary" @click="addItem">添加</el-button>
     </div>
-    <el-dialog title="上传图片" width="60%" @close="closeImgUp" :visible.sync="isdialogShow" :append-to-body="true">
-      <imgUpload ref="imgUpdateMainPic" @urlList="urlListMainPic" :productImgs="imgListMainPic" :imgLimit="1"></imgUpload>
-      <span class="dialog-footer" slot="footer">
-        <el-button @click="isdialogShow=false">取 消</el-button>
-        <el-button type="primary" @click="confirm">确 定</el-button>
-      </span>
-    </el-dialog>
+    <addItemDialog ref="addItemDom"></addItemDialog>
   </div>
 </template>
 
@@ -25,7 +23,7 @@
 import init from "@/assets/rongyun/init";
 import { mapState , mapActions} from "vuex";
 import CrumbList from "./CrumbList";
-import imgUpload from '@/components/ImageUpload/imgUpload'
+import addItemDialog from '@/components/addItem/addItem'
 import formatTime from "@/global/filters";
 const clickoutside = {
  // 初始化指令
@@ -54,7 +52,8 @@ const clickoutside = {
 }
 export default {
   components: {
-    CrumbList
+    CrumbList,
+    addItemDialog
   },
   data() {
     return {
@@ -77,7 +76,14 @@ export default {
 	  merchantInformation:[],
 	  not_read_count:0,//总未读条数
 	  not_read_count_user:0,
-	  not_read_count_system:0,
+    not_read_count_system:0,
+    inputValue:"",
+    inputShow:true,
+    selectShow:false,
+    selectValue:"",
+    selectList:[
+      {label:"文章",value:'addArticle'}
+    ]
     };
   },
   computed: {
@@ -88,26 +94,21 @@ export default {
   },
   directives: {clickoutside},
   methods: {
+    addItem(){
+      // 1 :title 2:type
+      this.$refs.addItemDom.itemDialogInit("添加文章","addArticle")
+    },
+    KeyUpEnter(){
+      if(this.inputValue=='添加'){
+        this.selectShow = true
+        this.inputShow = false
+      }
+    },
     toggleAsideMenuCollapse() {
       this.$store.commit("toggleAsideMenuCollapse");
     },
   ...mapActions(['getMessaged']),
-  confirm(){
-
   },
-  showUploadDialog(){
-    this.isdialogShow = true
-  },
-  closeImgUp(){
-    this.isdialogShow = false
-  },
-  urlListMainPic(val){
-    console.log(val,'val')
-  }
-  },
-  components:{
-    imgUpload
-  }
 };
 </script>
 
