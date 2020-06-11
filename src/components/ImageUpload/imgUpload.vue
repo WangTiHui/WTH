@@ -99,13 +99,6 @@ export default {
       isMultiple: true,
       fileImgIndex: 0, //删除的脚码
       urlList: [],
-      ossData:{
-        policy:'',
-        accessid:'',
-        accesssecret:'1',
-        bucket:'1',
-        region:'oss-cn-zhangjiakou',
-      }
     };
   },
   props: {
@@ -174,14 +167,6 @@ export default {
         // if (!(ret.data && ret.data.code === "0" && ret.data.data)) {
         //   throw new Error("获取OSS参数失败");
         // }
-        // let ossData = JSON.parse(ret.data.data);
-        // let relativePath = ossData.relativePath;
-        let client = new OSS.Wrapper({
-          accessKeyId: this.ossData.accessid,
-          accessKeySecret: this.ossData.accesssecret,
-          bucket: this.ossData.bucket,
-          region: this.ossData.region
-        });
         let file = option.file;
         const point = file.name.lastIndexOf(".");
         let suffix = file.name.substr(point);
