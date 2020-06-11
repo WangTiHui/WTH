@@ -101,9 +101,9 @@ export default {
       urlList: [],
       ossData:{
         policy:'',
-        accessid:'LTAIVwog4jjhbsin',
-        accesssecret:'W20CFoT5fgYVIiA8LOnnBoF5hJn0DK',
-        bucket:'istheone',
+        accessid:'',
+        accesssecret:'',
+        bucket:'',
         region:'oss-cn-zhangjiakou',
       }
     };
