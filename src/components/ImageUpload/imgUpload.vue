@@ -102,8 +102,8 @@ export default {
       ossData:{
         policy:'',
         accessid:'',
-        accesssecret:'',
-        bucket:'',
+        accesssecret:'1',
+        bucket:'1',
         region:'oss-cn-zhangjiakou',
       }
     };
