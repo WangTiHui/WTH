@@ -161,12 +161,6 @@ export default {
       try {
         let vm = this;
         vm.disabled = true;
-        // 获取OSS配置信息
-        // let uploadFileApi = new UploadFileApi();
-        // let ret = await uploadFileApi.fileOssParams();
-        // if (!(ret.data && ret.data.code === "0" && ret.data.data)) {
-        //   throw new Error("获取OSS参数失败");
-        // }
         let file = option.file;
         const point = file.name.lastIndexOf(".");
         let suffix = file.name.substr(point);
