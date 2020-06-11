@@ -36,8 +36,8 @@ Vue.use(VueVideoPlayer)
 Vue.use(ElementUI, {
   size: 'medium'
 });
-import rongyun from '@/assets/rongyun/RongIMLib-2.4.0.min.js'//融云
-import rongEmoji from '@/assets/rongyun/RongEmoji-2.2.7.js'//表情
+// import rongyun from '@/assets/rongyun/RongIMLib-2.4.0.min.js'//融云
+// import rongEmoji from '@/assets/rongyun/RongEmoji-2.2.7.js'//表情
 Vue.config.productionTip = false
 
 Vue.prototype.rongyun = rongyun

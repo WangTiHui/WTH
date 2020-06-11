@@ -5,7 +5,7 @@ export default {
       title: "顶部导航",
       title_english: "HeaderBar",
       image:
-        "https://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/component/component_top.png",
+        "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/component_top.png",
       num_limit: 1,
       component_type: "basic",
       style: [
@@ -13,7 +13,7 @@ export default {
           id: "2",
           title: "样式一",
           image:
-            "https://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/component/top_1.png",
+            "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/top_1.png",
           num_limit: 1,
           parent_id: "1",
           attribute_num_basic: 1,
@@ -25,7 +25,7 @@ export default {
           id: "3",
           title: "样式二",
           image:
-            "https://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/component/top_2.png",
+            "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/top_2.png",
           num_limit: 1,
           parent_id: "1",
           attribute_num_basic: 1,
@@ -40,7 +40,7 @@ export default {
       title: "头部侧滑",
       title_english: "ClassificationList",
       image:
-        "https://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/component/component_top2.png",
+        "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/component_top2.png",
       num_limit: 1,
       component_type: "basic",
       style: [
@@ -48,7 +48,7 @@ export default {
           id: "7",
           title: "样式一",
           image:
-            "https://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/component/top2_1.png",
+            "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/top2_1.png",
           num_limit: 1,
           parent_id: "6",
           attribute_num_basic: 1,
@@ -60,7 +60,7 @@ export default {
           id: "8",
           title: "样式二",
           image:
-            "https://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/component/top2_2.png",
+            "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/top2_2.png",
           num_limit: 1,
           parent_id: "6",
           attribute_num_basic: 1,
@@ -75,7 +75,7 @@ export default {
       title: "banner图",
       title_english: "Carousel",
       image:
-        "https://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/component/banner.png",
+        "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/banner.png",
       num_limit: 1,
       component_type: "basic",
       style: [
@@ -83,7 +83,7 @@ export default {
           id: "10",
           title: "banner图",
           image:
-            "https://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/component/banner_1.png",
+            "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/banner_1.png",
           num_limit: 1,
           parent_id: "9",
           attribute_num_basic: 0,
@@ -98,7 +98,7 @@ export default {
       title: "多眼导航",
       title_english: "ModuleList",
       image:
-        "https://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/component/component_g.png",
+        "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/component_g.png",
       num_limit: 2,
       component_type: "basic",
       style: [
@@ -106,7 +106,7 @@ export default {
           id: "12",
           title: "一行4个",
           image:
-            "https://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/component/g_1.png",
+            "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/g_1.png",
           num_limit: 2,
           parent_id: "11",
           attribute_num_basic: 0,
@@ -118,7 +118,7 @@ export default {
           id: "13",
           title: "一行5个",
           image:
-            "https://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/component/g_2.png",
+            "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/g_2.png",
           num_limit: 2,
           parent_id: "11",
           attribute_num_basic: 0,
@@ -130,7 +130,7 @@ export default {
           id: "14",
           title: "两行8个",
           image:
-            "https://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/component/g_3.png",
+            "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/g_3.png",
           num_limit: 2,
           parent_id: "11",
           attribute_num_basic: 0,
@@ -142,7 +142,7 @@ export default {
           id: "15",
           title: "两行10个",
           image:
-            "https://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/component/g_4.png",
+            "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/g_4.png",
           num_limit: 2,
           parent_id: "11",
           attribute_num_basic: 0,
@@ -157,7 +157,7 @@ export default {
       title: "滑动面板",
       title_english: "AdvBanner",
       image:
-        "https://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/component/banner2.png",
+        "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/banner2.png",
       num_limit: 2,
       component_type: "basic",
       style: [
@@ -165,7 +165,7 @@ export default {
           id: "17",
           title: "滑动面板",
           image:
-            "https://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/component/banner2_1.png",
+            "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/banner2_1.png",
           num_limit: 2,
           parent_id: "16",
           attribute_num_basic: 0,
@@ -180,7 +180,7 @@ export default {
       title: "图片",
       title_english: "ImageModule",
       image:
-        "https://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/component/component_image.png",
+        "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/component_image.png",
       num_limit: 10,
       component_type: "basic",
       style: [
@@ -188,7 +188,7 @@ export default {
           id: "19",
           title: "一行一个",
           image:
-            "https://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/component/p_1.png",
+            "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/p_1.png",
           num_limit: 10,
           parent_id: "18",
           attribute_num_basic: 1,
@@ -200,7 +200,7 @@ export default {
           id: "20",
           title: "一行两个",
           image:
-            "https://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/component/p_2.png",
+            "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/p_2.png",
           num_limit: 10,
           parent_id: "18",
           attribute_num_basic: 1,
@@ -212,7 +212,7 @@ export default {
           id: "21",
           title: "左1右1",
           image:
-            "https://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/component/p_3.png",
+            "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/p_3.png",
           num_limit: 10,
           parent_id: "18",
           attribute_num_basic: 1,
@@ -224,7 +224,7 @@ export default {
           id: "22",
           title: "左2右1",
           image:
-            "https://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/component/p_4.png",
+            "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/p_4.png",
           num_limit: 10,
           parent_id: "18",
           attribute_num_basic: 1,
@@ -236,7 +236,7 @@ export default {
           id: "23",
           title: "一行三个",
           image:
-            "https://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/component/p_5.png",
+            "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/p_5.png",
           num_limit: 10,
           parent_id: "18",
           attribute_num_basic: 1,
@@ -251,7 +251,7 @@ export default {
       title: "横向商品滑动",
       title_english: "InlineGoodsFields",
       image:
-        "https://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/component/component_item1.png",
+        "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/component_item1.png",
       num_limit: 5,
       component_type: "basic",
       style: [
@@ -259,7 +259,7 @@ export default {
           id: "25",
           title: "横向商品滑动",
           image:
-            "https://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/component/s_3.png",
+            "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/s_3.png",
           num_limit: 5,
           parent_id: "24",
           attribute_num_basic: 1,
@@ -274,7 +274,7 @@ export default {
       title: "主商品板块",
       title_english: "GoodsFields",
       image:
-        "https://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/component/component_item2.png",
+        "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/component_item2.png",
       num_limit: 1,
       component_type: "basic",
       style: [
@@ -282,7 +282,7 @@ export default {
           id: "27",
           title: "主商品板块",
           image:
-            "https://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/component/s_1.png",
+            "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/s_1.png",
           num_limit: 1,
           parent_id: "26",
           attribute_num_basic: 1,
@@ -299,7 +299,7 @@ export default {
       title: "头条播报",
       title_english: "HeadlineBroadcast",
       image:
-        "https://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/component/component_toutiao.png",
+        "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/component_toutiao.png",
       num_limit: 1,
       component_type: "function",
       style: [
@@ -307,7 +307,7 @@ export default {
           id: "35",
           title: "头条播报",
           image:
-            "https://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/component/component_toutiao.png",
+            "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/component_toutiao.png",
           num_limit: 0,
           parent_id: "28",
           attribute_num_basic: 0,
@@ -322,7 +322,7 @@ export default {
       title: "限时抢购",
       title_english: "FlashSale",
       image:
-        "https://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/component/component_xianshi.png",
+        "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/component_xianshi.png",
       num_limit: 1,
       component_type: "function",
       style: [
@@ -330,7 +330,7 @@ export default {
           id: "36",
           title: "限时抢购",
           image:
-            "https://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/component/component_xianshi.png",
+            "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/component_xianshi.png",
           num_limit: 0,
           parent_id: "29",
           attribute_num_basic: 0,

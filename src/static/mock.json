@@ -7,7 +7,7 @@
         {
           "id": "2",
           "title": "样式一",
-          "image": "https://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/component/top_1.png",
+          "image": "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/top_1.png",
           "num_limit": 1,
           "parent_id": "1",
           "attribute_num_basic": 1,
@@ -27,7 +27,7 @@
         {
           "id": "7",
           "title": "样式一",
-          "image": "https://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/component/top2_1.png",
+          "image": "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/top2_1.png",
           "num_limit": 1,
           "parent_id": "6",
           "attribute_num_basic": 1,
@@ -40,7 +40,7 @@
         {
           "id": "10",
           "title": "banner图",
-          "image": "https://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/component/banner_1.png",
+          "image": "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/banner_1.png",
           "num_limit": 1,
           "parent_id": "9",
           "attribute_num_basic": 0,
@@ -62,7 +62,7 @@
         {
           "id": "14",
           "title": "两行8个",
-          "image": "https://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/component/g_3.png",
+          "image": "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/g_3.png",
           "num_limit": 2,
           "parent_id": "11",
           "attribute_num_basic": 0,
@@ -108,7 +108,7 @@
         {
           "id": "17",
           "title": "滑动面板",
-          "image": "https://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/component/banner2_1.png",
+          "image": "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/banner2_1.png",
           "num_limit": 2,
           "parent_id": "16",
           "attribute_num_basic": 0,
@@ -130,7 +130,7 @@
         {
           "id": "19",
           "title": "一行一个",
-          "image": "https://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/component/p_1.png",
+          "image": "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/p_1.png",
           "num_limit": 10,
           "parent_id": "18",
           "attribute_num_basic": 1,
@@ -146,7 +146,7 @@
         {
           "id": "21",
           "title": "左1右1",
-          "image": "https://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/component/p_3.png",
+          "image": "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/p_3.png",
           "num_limit": 10,
           "parent_id": "18",
           "attribute_num_basic": 1,
@@ -170,7 +170,7 @@
         {
           "id": "22",
           "title": "左2右1",
-          "image": "https://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/component/p_4.png",
+          "image": "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/p_4.png",
           "num_limit": 10,
           "parent_id": "18",
           "attribute_num_basic": 1,
@@ -194,7 +194,7 @@
         {
           "id": "25",
           "title": "横向商品滑动",
-          "image": "https://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/component/s_3.png",
+          "image": "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/s_3.png",
           "num_limit": 5,
           "parent_id": "24",
           "attribute_num_basic": 1,
@@ -205,7 +205,7 @@
         {
           "id": "27",
           "title": "主商品板块",
-          "image": "https://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/component/s_1.png",
+          "image": "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/s_1.png",
           "num_limit": 1,
           "parent_id": "26",
           "attribute_num_basic": 1,
@@ -216,7 +216,7 @@
         {
           "id": "27",
           "title": "主商品板块",
-          "image": "https://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/component/s_1.png",
+          "image": "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/s_1.png",
           "num_limit": 1,
           "parent_id": "26",
           "attribute_num_basic": 1,

@@ -18,10 +18,7 @@ import { get } from 'http'
 export default {
     data(){
         return{
-            iamges:[
-                "https://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/decoration/20191224/b6b8e5952bcce5b61d16813135e1e349.png",
-                "https://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/o2o_shop/image/20191224/3866c2689873fedaedfecaec54d2f538.jpg"
-            ],
+            iamges:[],
             showBigImage:false,
             imgHeight:650
         }

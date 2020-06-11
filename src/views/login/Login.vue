@@ -32,8 +32,10 @@
               等级</span> <a class="menu-link1 menu-link"><router-link to="skill/html">css<br>
               html</router-link></a> <a class="menu-link2 menu-link"><router-link to="skill/vue">vue<br>
               element</router-link></a> <a class="menu-link3 menu-link"><router-link to="skill/taro">react<br>
-              taro</router-link></a> <a class="menu-link4 menu-link"><router-link to="skill/applets">小<br>
-              程序</router-link></a> 
+              taro</router-link></a> <a class="menu-link4 menu-link"><router-link to="skill/gadgets">小<br>
+              玩意</router-link></a> <a class="menu-link6 menu-link"><router-link to="skill/applets">小<br>
+              程序</router-link></a> <a class="menu-link5 menu-link"><router-link to="skill/canvas">
+              canvas</router-link></a>
             </div>
           </li>
           <li class="piston4" :class="{'animation-paused':isStop}">
@@ -65,7 +67,7 @@
       </div>
       <div class="copyright">
         <a target="_blank" href="http://beian.miit.gov.cn/">
-          <img src="http://mobile.mifbb.com/images/ga.png"/>
+          <img src="https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/ga.png"/>
         </a>
         <a target="_blank" href="http://beian.miit.gov.cn/">浙ICP备19033438号</a>
       </div>

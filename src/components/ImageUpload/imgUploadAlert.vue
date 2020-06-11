@@ -51,7 +51,7 @@ import { type } from 'os';
             },
 	    	uploadUrl:{
 	    		type: String,
-	    		default:'http://admin_dev.mymifbb.com/config/basics/image'
+	    		default:'http://www.wangth132.com/image'
 	    	},
 	    	typeImg:{
 	    		type: String,

@@ -15,7 +15,7 @@
         <!-- <el-link :underline="false" target="_blank" href="http://beian.miit.gov.cn/">浙ICP备17022807号-1</el-link> -->
         <!-- <el-divider direction="vertical" /> -->
         <el-link :underline="false" target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33011002013438">
-          <el-image fit="fill" src="http://mobile.mifbb.com/images/ga.png" />
+          <el-image fit="fill" src="https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/ga.png" />
         </el-link>
         <el-link :underline="false" target="_blank" href="http://beian.miit.gov.cn/">浙ICP备17022807号-1</el-link>
       </div>

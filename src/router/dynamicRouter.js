@@ -32,6 +32,9 @@ const react = () => import("@/views/wang/skill/react");
 const taro = () => import("@/views/wang/skill/taro");
 const vue = () => import("@/views/wang/skill/vue");
 const applets = () => import("@/views/wang/skill/applets");
+const canvas = () => import("@/views/wang/skill/canvas");
+const gadgets = () => import("@/views/wang/skill/gadgets");
+const chat = () => import("@/views/wang/skill/gadgetsFile/chat");
 //公共view
 const RouterContainer = () => import("@/views/RouterContainer");
 const dynamicRouter = [
@@ -115,7 +118,7 @@ const dynamicRouter = [
   {
     path: "/life",
     name: "life",
-    component: life,
+    component: RouterContainer,
     meta: {
       name: "生活菜单",
       hidden:false,
@@ -236,7 +239,7 @@ const dynamicRouter = [
   {
     path: "/seniority",
     name: "seniority",
-    component: seniority,
+    component: RouterContainer,
     meta: {
       name: "资历成长",
       hidden:false,
@@ -265,7 +268,7 @@ const dynamicRouter = [
   {
     path: "/skill",
     name: "skill",
-    component: skill,
+    component: RouterContainer,
     meta: {
       name: "技能",
       hidden:false,
@@ -314,6 +317,33 @@ const dynamicRouter = [
         meta: {
           name: "applets",
           hidden:false,
+        }
+      },
+      {
+        path: "canvas",
+        name: "canvas",
+        component: canvas,
+        meta: {
+          name: "canvas",
+          hidden:false,
+        }
+      },
+      {
+        path: "gadgets",
+        name: "gadgets",
+        component: gadgets,
+        meta: {
+          name: "小玩意",
+          hidden:false,
+        },
+      },
+      {
+        path: "chat",
+        name: "chat",
+        component: chat,
+        meta: {
+          name: "聊天小工具",
+          hidden:true,
         }
       },
     ]

@@ -1,0 +1,12 @@
+{
+  "game":{
+    "list":[
+      {
+        "title":"蜘蛛纸牌",
+        "time":"2020-04-23",
+        "path":"../../htmlFile/zhizhuzhipai/index.html",
+        "img":"https://istheone.oss-cn-zhangjiakou.aliyuncs.com/images/zhizhuzhipai.jpg"
+      }
+    ]
+  }
+}

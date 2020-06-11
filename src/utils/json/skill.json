@@ -1,0 +1,18 @@
+{
+  "applets":{},
+  "canvas":{},
+  "gadgets":{
+    "list":[
+      {
+        "title":"聊天小工具",
+        "path":"/skill/chat",
+        "bg":"linear-gradient(45deg,#0064bc 30%,#259F55 64%,#03B855 6%)",
+        "color":"#FFF"
+      }
+    ]
+  },
+  "html":{},
+  "react":{},
+  "taro":{},
+  "vue":{}
+}

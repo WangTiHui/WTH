@@ -164,7 +164,7 @@ export default {
   methods: {
     ryInit() {
       var userInfo = {
-        appKey: location.href.indexOf('o2ofront.mifbb.com')!=-1?"8brlm7uf8i8n3":'8luwapkv8b8zl',//"82hegw5u8mqwx",
+        appKey: '82hegw5u8mqwx',//location.href.indexOf('o2ofront.mifbb.com')!=-1?"8brlm7uf8i8n3":'8luwapkv8b8zl',//"82hegw5u8mqwx",
         token:this.$store.state.userInfo.rong_token,//"ZsHtvk585MWpfVXzab50bSALjGTu6G1EbTxKF6kL5ftb2AzSGQl34ZdenxYBiTeVQGGlSDxICoyrlC//TYAWs6//pvlIuQlyaxQJYt4Z4Qw=",//this.token,//"oUh0wcHH6E2LiuTpEKp/+jCvQwRQ4mI0ws9X674LamLVDfNK14vl8UoEcZT0otHeuyNsIi1T4wZ8UwVl0ZqyZA=="
       };
       var _this = this;
@@ -192,7 +192,7 @@ export default {
                   _this.targetId = list.length>0?list[0].targetId:'';
                   _this.stat.currentUserInfo.id= _this.$store.state.userInfo.id
                   _this.stat.currentUserInfo.nickname  = _this.$store.state.nickname
-                  _this.stat.currentUserInfo.portraitUri = _this.$store.state.avatar?_this.$store.state.avatar:"https://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/decoration/20191129/baa42a0cd29313cb2db19b6a1a8d8a90.png"
+                  _this.stat.currentUserInfo.portraitUri = _this.$store.state.avatar?_this.$store.state.avatar:"../../assets/images/logo3.png"
                   _this.userListFirst.forEach(e=>{
                       e.nickname = ''
                       e.avatar = ''
@@ -242,7 +242,7 @@ export default {
           that.targetId = list.length>0?list[0].targetId:'';
           that.stat.currentUserInfo.id= that.$store.state.userInfo.id
           that.stat.currentUserInfo.nickname  = that.$store.state.nickname
-          that.stat.currentUserInfo.portraitUri = that.$store.state.avatar?that.$store.state.avatar:"https://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/decoration/20191129/baa42a0cd29313cb2db19b6a1a8d8a90.png"
+          that.stat.currentUserInfo.portraitUri = that.$store.state.avatar?that.$store.state.avatar:"../../assets/images/logo3.png"
           that.userListFirst.forEach(e=>{
               e.nickname = ''
               e.avatar = ''

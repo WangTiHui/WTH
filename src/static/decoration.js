@@ -3,9 +3,9 @@ export default [
     type: "tabbar",
     config: {
       active_icon:
-        "http://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/decoration/20191029/952f174c8ebead1955e8f11d2b5d6dba.png",
+        "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/20191029/952f174c8ebead1955e8f11d2b5d6dba.png",
       unactive_icon:
-        "http://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/decoration/20191029/f7eaed84388af223eb21a42b29539398.png",
+        "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/20191029/f7eaed84388af223eb21a42b29539398.png",
       business_id: 1
     },
     pages: {
@@ -19,7 +19,7 @@ export default [
               type: "image",
               config: {
                 image:
-                  "http://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/decoration/20191029/f697c3763a0fff29ba8d93bca680e73e.png",
+                  "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/20191029/f697c3763a0fff29ba8d93bca680e73e.png",
                 title: "消息",
                 function: {
                   id: "4",
@@ -34,7 +34,7 @@ export default [
               type: "image",
               config: {
                 image:
-                  "http://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/decoration/20191029/d5f3dcfe7f10c387338e8e9d8510df79.png",
+                  "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/20191029/d5f3dcfe7f10c387338e8e9d8510df79.png",
                 title: "购物车",
                 function: {
                   id: "7",
@@ -61,85 +61,85 @@ export default [
                     id: "356",
                     name: "女装",
                     icon:
-                      "https://img.alicdn.com/imgextra/i1/2053469401/TB2oX82HL9TBuNjy0FcXXbeiFXa-2053469401.png"
+                      "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/TB2oX82HL9TBuNjy0FcXXbeiFXa-2053469401.png"
                   },
                   {
                     id: "375",
                     name: "美食",
                     icon:
-                      "https://img.alicdn.com/imgextra/i4/2053469401/TB2PFV2HL9TBuNjy0FcXXbeiFXa-2053469401.png"
+                      "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/TB2PFV2HL9TBuNjy0FcXXbeiFXa-2053469401.png"
                   },
                   {
                     id: "391",
                     name: "美妆",
                     icon:
-                      "https://img.alicdn.com/imgextra/i1/2053469401/TB2QybZHL1TBuNjy0FjXXajyXXa-2053469401.png"
+                      "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/TB2QybZHL1TBuNjy0FjXXajyXXa-2053469401.png"
                   },
                   {
                     id: "411",
                     name: "居家",
                     icon:
-                      "https://img.alicdn.com/imgextra/i3/2053469401/TB2FCJnHFGWBuNjy0FbXXb4sXXa-2053469401.png"
+                      "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/TB2FCJnHFGWBuNjy0FbXXb4sXXa-2053469401.png"
                   },
                   {
                     id: "424",
                     name: "男装",
                     icon:
-                      "https://img.alicdn.com/imgextra/i1/2053469401/TB2n7WyHN9YBuNjy0FfXXXIsVXa-2053469401.png"
+                      "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/TB2n7WyHN9YBuNjy0FfXXXIsVXa-2053469401.png"
                   },
                   {
                     id: "439",
                     name: "鞋品",
                     icon:
-                      "https://img.alicdn.com/imgextra/i1/2053469401/TB2g79yHN9YBuNjy0FfXXXIsVXa-2053469401.png"
+                      "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/TB2g79yHN9YBuNjy0FfXXXIsVXa-2053469401.png"
                   },
                   {
                     id: "452",
                     name: "数码家电",
                     icon:
-                      "https://img.alicdn.com/imgextra/i3/2053469401/TB230SXHL9TBuNjy1zbXXXpepXa-2053469401.png"
+                      "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/TB230SXHL9TBuNjy1zbXXXpepXa-2053469401.png"
                   },
                   {
                     id: "465",
                     name: "母婴",
                     icon:
-                      "https://img.alicdn.com/imgextra/i4/2053469401/TB2QMv0ay6guuRjy1XdXXaAwpXa-2053469401.png"
+                      "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/TB2QMv0ay6guuRjy1XdXXaAwpXa-2053469401.png"
                   },
                   {
                     id: "475",
                     name: "箱包",
                     icon:
-                      "https://img.alicdn.com/imgextra/i2/2053469401/TB27Cw.HwaTBuNjSszfXXXgfpXa-2053469401.png"
+                      "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/TB27Cw.HwaTBuNjSszfXXXgfpXa-2053469401.png"
                   },
                   {
                     id: "486",
                     name: "文娱车品",
                     icon:
-                      "https://img.alicdn.com/imgextra/i4/2053469401/TB21.plHQKWBuNjy1zjXXcOypXa-2053469401.png"
+                      "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/TB21.plHQKWBuNjy1zjXXcOypXa-2053469401.png"
                   },
                   {
                     id: "495",
                     name: "配饰",
                     icon:
-                      "https://img.alicdn.com/imgextra/i2/2053469401/TB2i36ZazfguuRjy1zeXXb0KFXa-2053469401.png"
+                      "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/TB2i36ZazfguuRjy1zeXXb0KFXa-2053469401.png"
                   },
                   {
                     id: "505",
                     name: "内衣",
                     icon:
-                      "https://img.alicdn.com/imgextra/i3/2053469401/TB2cnZWzfiSBuNkSnhJXXbDcpXa-2053469401.png"
+                      "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/TB2cnZWzfiSBuNkSnhJXXbDcpXa-2053469401.png"
                   },
                   {
                     id: "514",
                     name: "家装家纺",
                     icon:
-                      "https://img.alicdn.com/imgextra/i1/2053469401/TB2uI3VzcyYBuNkSnfoXXcWgVXa-2053469401.png"
+                      "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/TB2uI3VzcyYBuNkSnfoXXcWgVXa-2053469401.png"
                   },
                   {
                     id: "525",
                     name: "户外运动",
                     icon:
-                      "https://img.alicdn.com/imgextra/i4/2053469401/TB2rrnsHH9YBuNjy0FgXXcxcXXa-2053469401.png"
+                      "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/TB2rrnsHH9YBuNjy0FgXXcxcXXa-2053469401.png"
                   }
                 ]
               }
@@ -158,14 +158,14 @@ export default [
               type: "image",
               config: {
                 image:
-                  "http://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/decoration/20191029/6374a1878cbe0f354b9196c1ad5c0714.png",
+                  "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/20191029/6374a1878cbe0f354b9196c1ad5c0714.png",
                 title: "",
                 function: {
                   id: "13",
                   type: "channel",
                   title: "聚划算",
                   image:
-                    "https://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/component/juhuasuan.png",
+                    "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/juhuasuan.png",
                   data: { url: "https://jhs.m.taobao.com" }
                 }
               }
@@ -174,7 +174,7 @@ export default [
               type: "image",
               config: {
                 image:
-                  "http://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/decoration/20191029/16063ed15f46173ae241e03aae7a0400.png",
+                  "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/20191029/16063ed15f46173ae241e03aae7a0400.png",
                 title: "",
                 function: {
                   id: "6",
@@ -204,7 +204,7 @@ export default [
               type: "image",
               config: {
                 image:
-                  "http://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/decoration/20191029/1c956506bfae08ed2bce3d28ccc7b6eb.png",
+                  "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/20191029/1c956506bfae08ed2bce3d28ccc7b6eb.png",
                 title: "淘宝",
                 function: {
                   id: "17",
@@ -219,14 +219,14 @@ export default [
               type: "image",
               config: {
                 image:
-                  "http://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/decoration/20191029/7b836efeb2b947dbe39aa555c6881277.png",
+                  "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/20191029/7b836efeb2b947dbe39aa555c6881277.png",
                 title: "天猫专场",
                 function: {
                   id: "11",
                   type: "channel",
                   title: "天猫精选",
                   image:
-                    "https://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/component/tianmaojingxuan.png",
+                    "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/tianmaojingxuan.png",
                   data: { url: "http://jx.tmall.com/" }
                 }
               }
@@ -235,14 +235,14 @@ export default [
               type: "image",
               config: {
                 image:
-                  "http://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/decoration/20191029/ada2b81855c5bb1f53194817e78c8805.png",
+                  "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/20191029/ada2b81855c5bb1f53194817e78c8805.png",
                 title: "天猫国际",
                 function: {
                   id: "9",
                   type: "channel",
                   title: "天猫国际",
                   image:
-                    "https://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/component/tianmaoguoji.png",
+                    "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/tianmaoguoji.png",
                   data: { url: "https://www.tmall.hk/" }
                 }
               }
@@ -251,7 +251,7 @@ export default [
               type: "image",
               config: {
                 image:
-                  "http://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/decoration/20191029/46f4386342e7f42fd8c80ccf0dc28e94.png",
+                  "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/20191029/46f4386342e7f42fd8c80ccf0dc28e94.png",
                 title: "帮抖",
                 function: {
                   id: "2",
@@ -266,7 +266,7 @@ export default [
               type: "image",
               config: {
                 image:
-                  "http://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/decoration/20191029/9ccbefe0172cd1a6717d9d9433ad398b.png",
+                  "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/20191029/9ccbefe0172cd1a6717d9d9433ad398b.png",
                 title: "淘宝直播",
                 function: null
               }
@@ -275,7 +275,7 @@ export default [
               type: "image",
               config: {
                 image:
-                  "http://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/decoration/20191029/3a154087df4b3ab7e2acf8094ec56a55.png",
+                  "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/20191029/3a154087df4b3ab7e2acf8094ec56a55.png",
                 title: "9.9包邮",
                 function: {
                   id: "11",
@@ -290,7 +290,7 @@ export default [
               type: "image",
               config: {
                 image:
-                  "http://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/decoration/20191029/17c86a4e3d93992237a0be3886b5e580.png",
+                  "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/20191029/17c86a4e3d93992237a0be3886b5e580.png",
                 title: "限时抢购",
                 function: null
               }
@@ -299,7 +299,7 @@ export default [
               type: "image",
               config: {
                 image:
-                  "http://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/decoration/20191029/00c727b488cd1e5cb26ce5f9f810d18d.png",
+                  "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/20191029/00c727b488cd1e5cb26ce5f9f810d18d.png",
                 title: "超级搜索",
                 function: {
                   id: "1",
@@ -314,7 +314,7 @@ export default [
               type: "image",
               config: {
                 image:
-                  "http://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/decoration/20191029/0bed310a83d11825129536df03082a14.png",
+                  "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/20191029/0bed310a83d11825129536df03082a14.png",
                 title: "qq",
                 function: { name: "h5链接", url: "http://www.qq.com" }
               }
@@ -323,7 +323,7 @@ export default [
               type: "image",
               config: {
                 image:
-                  "http://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/decoration/20191029/2309ec1d3cdb272a615eea28008e3446.png",
+                  "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/20191029/2309ec1d3cdb272a615eea28008e3446.png",
                 title: "微信",
                 function: { name: "h5链接", url: "http://www.wechat.com" }
               }
@@ -332,7 +332,7 @@ export default [
               type: "image",
               config: {
                 image:
-                  "http://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/decoration/20191029/509ae89859faea1daf6e6630f8b4cd8c.png",
+                  "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/20191029/509ae89859faea1daf6e6630f8b4cd8c.png",
                 title: "朋友圈",
                 function: null
               }
@@ -349,7 +349,7 @@ export default [
               type: "image",
               config: {
                 image:
-                  "http://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/decoration/20191029/38585d1b700087a56e146b42e4b26bdc.png",
+                  "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/20191029/38585d1b700087a56e146b42e4b26bdc.png",
                 title: "",
                 function: null
               }
@@ -358,7 +358,7 @@ export default [
               type: "image",
               config: {
                 image:
-                  "http://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/decoration/20191029/16063ed15f46173ae241e03aae7a0400.png",
+                  "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/20191029/16063ed15f46173ae241e03aae7a0400.png",
                 title: "",
                 function: {
                   id: "5",
@@ -381,7 +381,7 @@ export default [
               type: "image",
               config: {
                 image:
-                  "http://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/decoration/20191029/872b83421fec03d2c3cf6b15aac79bbf.png",
+                  "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/20191029/872b83421fec03d2c3cf6b15aac79bbf.png",
                 title: "",
                 function: {
                   id: "11",
@@ -396,7 +396,7 @@ export default [
               type: "image",
               config: {
                 image:
-                  "http://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/decoration/20191029/dcbf3bc52512eb9f8512982d72eafe9e.png",
+                  "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/20191029/dcbf3bc52512eb9f8512982d72eafe9e.png",
                 title: "",
                 function: {
                   id: "7",
@@ -411,7 +411,7 @@ export default [
               type: "image",
               config: {
                 image:
-                  "http://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/decoration/20191029/e0cb0dea09d459f664625587a8ce0868.png",
+                  "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/20191029/e0cb0dea09d459f664625587a8ce0868.png",
                 title: "",
                 function: {
                   id: "17",
@@ -434,7 +434,7 @@ export default [
               type: "image",
               config: {
                 image:
-                  "http://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/decoration/20191029/a569f409533cb3f2a70398ce5de2b8db.png",
+                  "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/20191029/a569f409533cb3f2a70398ce5de2b8db.png",
                 title: "",
                 function: null
               }
@@ -443,7 +443,7 @@ export default [
               type: "image",
               config: {
                 image:
-                  "http://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/decoration/20191029/d7ce1d4974267a975a7dd4a31fb217aa.png",
+                  "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/20191029/d7ce1d4974267a975a7dd4a31fb217aa.png",
                 title: "",
                 function: {
                   id: "6",
@@ -473,7 +473,7 @@ export default [
               type: "image",
               config: {
                 image:
-                  "http://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/decoration/20191029/16063ed15f46173ae241e03aae7a0400.png",
+                  "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/20191029/16063ed15f46173ae241e03aae7a0400.png",
                 title: "",
                 function: {
                   id: "6",
@@ -501,9 +501,9 @@ export default [
     type: "tabbar",
     config: {
       active_icon:
-        "http://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/decoration/20191029/99bed7e7999bf6b17777bd09ab25ee20.png",
+        "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/20191029/99bed7e7999bf6b17777bd09ab25ee20.png",
       unactive_icon:
-        "http://mifbb-upload-image.oss-cn-hangzhou.aliyuncs.com/mifbb_app/decoration/20191029/b4092b783a785971c58c556553b2d28e.png",
+        "https://istheone.oss-cn-zhangjiakou.aliyuncs.com/image/20191029/b4092b783a785971c58c556553b2d28e.png",
       business_id: 0
     },
     pages: "me"
