@@ -40,8 +40,8 @@ Vue.use(ElementUI, {
 // import rongEmoji from '@/assets/rongyun/RongEmoji-2.2.7.js'//表情
 Vue.config.productionTip = false
 
-Vue.prototype.rongyun = rongyun
-Vue.prototype.rongEmoji= rongEmoji
+// Vue.prototype.rongyun = rongyun
+// Vue.prototype.rongEmoji= rongEmoji
 
 import areaJson from '@/static/json.json';
 Vue.prototype.areaJson = areaJson;
