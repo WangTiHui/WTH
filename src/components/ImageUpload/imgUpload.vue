@@ -115,7 +115,7 @@ export default {
     // 图片上传的地址
     uploadUrl: {
       type: String,
-      default: "http://istheone.oss-cn-zhangjiakou.aliyuncs.com"
+      default: ""
     },
     // 图片的类型 png,jpg
     typeImg: {
