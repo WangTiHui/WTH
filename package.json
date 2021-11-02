@@ -17,7 +17,7 @@
     "jquery": "^3.5.0",
     "js-export-excel": "^1.1.2",
     "sortable.js": "^0.3.0",
-    "tinymce": "^5.2.2",
+    "tinymce": "^5.10.0",
     "urijs": "^1.19.1",
     "vant": "^2.2.13-beta.0",
     "video.js": "^7.6.5",
